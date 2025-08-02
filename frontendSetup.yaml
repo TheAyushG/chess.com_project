@@ -11,7 +11,7 @@ Drag and Drop:
 Implement drag and drop functionality for moving chess pieces on the board.
 Pieces are draggable only if it's the player's turn.
 Event listeners for drag start, drag end, drag over, and drop events are attached to handle drag and drop interactions.
-
+ 
 Rendering the Board:
 Generate the HTML representation of the chessboard based on the current game state.
 Iterate over the board array and create square elements for each cell.
