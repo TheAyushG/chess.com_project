@@ -11,7 +11,7 @@ const io = socket(server); // these two line for the socket.io to work
 
 const chess = new Chess();
 let players = {};
-let curentPlayer = "W";
+let curentPlayer = "w";
 
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
